@@ -14,8 +14,9 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
                 Text("London, ON")
-                    .font(.system(size: 32, weight: .medium, design: .default)).foregroundColor(.white).background(Color.red).frame(width: 200, height: 200, alignment: )
-                    .
+                    .font(.system(size: 32, weight: .medium, design: .default)).foregroundColor(.white)
+                Spacer()
+                    
             }
         }
     }
